@@ -1,0 +1,12 @@
+.header-left a {
+  text-align: left;
+  border: 2px solid black;
+  margin-right: 100px;
+}
+.header-left {
+  width: 70%;
+  text-align: left;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+}

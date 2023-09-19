@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+.box {
+  border: 2px solid #2c74e7;
+  border-radius: 3px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 750px;
+  height: 560px;
+  background: white;
+  overflow: hidden;
+}
+.inline-text {
+  color: white;
+  position: absolute;
+  top: 32px;
+  left: 55px;
+}
+.inline-text h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.inline-text p {
+  color: rgb(228, 228, 228);
+  opacity: 0.9;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.box1 {
+  background: url("img/form.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #2c74e7;
+}
+.box2 .user-id {
+  position: relative;
+  left: 20px;
+  top: 50px;
+  padding: 10px 20px;
+}
+.box2 .user-id input {
+  width: 100%;
+  height: 40px;
+}
+.box2 .user-data input {
+  color: black;
+  border: none;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  outline: none;
+  background: none;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+.box2 .user-data label {
+  color: rgb(158, 154, 154);
+  padding: 10px 20px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  font-size: 18px;
+  font-weight: 400;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.box2 .user-data input:focus ~ label,
+.box2 .user-data input:valid ~ label {
+  top: -20px;
+  font-size: 12px;
+}
+.box2 .user-data input:focus {
+  border-bottom: 1px solid #2a5fb4;
+}
+.box2 span a {
+  position: absolute;
+  top: 140px;
+  left: 315px;
+  display: inline;
+  color: #2a5fb4;
+  font-weight: 600;
+}
+.box2 .button input {
+  border: 2px solid pink;
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+  border: none;
+  background: orange;
+}
+#resetbtn {
+  background-color: white;
+  border: 2px solid white;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.user-id p {
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+}
+#toast-container {
+  top: 7%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.toast-container {
+  width: 300px;
+}
+
+.toast {
+  background-color: #333;
+  color: #fff;
+  opacity: 0.9;
+}
+
+.toast-title {
+  font-weight: bold;
+}
+
+.toast-message {
+  font-size: 14px;
+}
+
+.toast-success {
+  background-color: #51a351;
+}
+
+.toast-error {
+  background-color: #bd362f;
+}
